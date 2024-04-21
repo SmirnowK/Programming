@@ -5,8 +5,9 @@ public class Hwork06 {
 
         int x = 3;
 
-        int result = (x += x++);;
+        x += x++;
 
-        System.out.println("The value of x after the operation is: "+result);
+
+        System.out.println("The value of x after the operation is: "+x);
     }
 }
