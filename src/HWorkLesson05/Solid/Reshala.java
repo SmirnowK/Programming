@@ -14,36 +14,36 @@ public class Reshala {
         switch (op) {
 
             case '+':
-                double a = operation.operation("Please enter first number: ");
-                double b = operation.operation("Please enter first number: ");
-                double result = a + b;
+                double firstNumber = operation.operation("Please enter first number: ");
+                double b = operation.operation("Please enter second number: ");
+                double result = firstNumber + b;
                 System.out.println("Result: " + result);
                 break;
 
             case '-':
                 double q = operation.operation("Please enter first number: ");
-                double w = operation.operation("Please enter first number: ");
+                double w = operation.operation("Please enter second number: ");
                 double resultm = q - w;
                 System.out.println("Result: " + resultm);
                 break;
 
             case '*':
                 double q1 = operation.operation("Please enter first number: ");
-                double w1 = operation.operation("Please enter first number: ");
+                double w1 = operation.operation("Please enter second number: ");
                 double resultu = q1 * w1;
                 System.out.println("Result: " + resultu);
                 break;
 
             case '/':
                 double a1 = operation.operation("Please enter first number: ");
-                double b1 = operation.operation("Please enter first number: ");
+                double b1 = operation.operation("Please enter second number: ");
                 double resuld = a1 / b1;
                 System.out.println("Result: " + resuld);
                 break;
 
             case '²':
                 double a2 = operation.operation("Please enter first number: ");
-                double b2 = operation.operation("Please enter first number: ");
+                double b2 = operation.operation("Please enter second number: ");
                 double resul2 = a2 * b2;
                 System.out.println("Result: " + resul2);
                 break;
@@ -53,5 +53,3 @@ public class Reshala {
         }
     }
 }
-
-
